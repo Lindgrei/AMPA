@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neu";
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+}
+#rock {
+  background: darkred;
+  font-family: "Open Sans";
+}
+#paper {
+  background: lightblue;
+  font-family: "Open Sans";
+}
+#scissors {
+  background: darkgreen;
+  font-family: "Open Sans";
+}
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-weight: bold;
+}
+#user-point {
+  font-family: "Open Sans";
+  text-align: center;
+}
+#computer-point {
+  font-family: "Open Sans";
+  text-align: center;
+}
+h3 {
+  font-family: "Open Sans";
+  text-align: center;
+}
